@@ -55,7 +55,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KzN-2T-b8k">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-camera" translatesAutoresizingMaskIntoConstraints="NO" id="KzN-2T-b8k">
                                 <rect key="frame" x="20" y="84" width="335" height="186"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KzN-2T-b8k" secondAttribute="height" multiplier="9:5" id="6U5-Ko-9vx"/>
@@ -114,4 +114,7 @@
             <point key="canvasLocation" x="-1023" y="87"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="photo-camera" width="256" height="256"/>
+    </resources>
 </document>
